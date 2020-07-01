@@ -7,13 +7,13 @@ clear
 pkg update && pkg upgrade
 pkg install figlet
 pkg install cat
-unzip $HOME/binarios/modulos.zip;ls
-rm -rf $HOME/binarios/modulos.zip
-chmod +x binarios
-mv $HOME/binarios/binarios /data/data/com.termux/files/usr/bin
-cp -r $HOME/binarios/modulos $PREFIX/bin
-rm -rf $HOME/binarios
-rm $HOME/binarios/install.sh
+unzip $HOME/virusc/modulos.zip;ls
+rm -rf $HOME/virusc/modulos.zip
+chmod +x virusc
+mv $HOME/virusc/virusc /data/data/com.termux/files/usr/bin
+cp -r $HOME/virusc/modulos $PREFIX/bin
+rm -rf $HOME/virusc
+rm $HOME/virusc/install.sh
 $C
 figlet SuperEagleHack
 
